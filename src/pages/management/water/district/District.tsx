@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Login = () => {
+const District = () => {
   return (
     <div>
-      Login Page
+      District
     </div>
   )
 }
 
-export default Login
+export default District
