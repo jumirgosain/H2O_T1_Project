@@ -1,6 +1,1 @@
-export const menuTitleList = {
-    Dashboard: "Dashboard",
-    Management:"Management",
-    Insight:"Insight",
-    Other:"Other"
-}
+export const menuTitleList = ["Dashboard", "Management", "Report", "Other"];

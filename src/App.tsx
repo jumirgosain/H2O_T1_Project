@@ -1,15 +1,13 @@
-
-import './App.css'
-import RoutesContainer from './routes/RoutesContainer'
-
+import Sidebar from "./component/sidebar/Sidebar";
+import RoutesContainer from "./routes/RoutesContainer";
+import "./App.css";
 function App() {
-
   return (
-    <>
-    
-    <RoutesContainer isLoadingData={false}/>
-    </>
-  )
+    <div style={{ display: "flex" }}>
+      <Sidebar />
+      <RoutesContainer isLoadingData={false} />
+    </div>
+  );
 }
 
-export default App
+export default App;
